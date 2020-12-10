@@ -1,0 +1,32 @@
+###orders-table                    
+*user_id
+*payment_id
+*paying_amount
+*balance_transection
+*stripe_order_id
+*shipping
+*vat
+*total
+*payment_type
+*subtotal
+*status
+*date
+*month
+*year
+   ###shipping-table
+  *order_id
+  *ship_name
+  *ship_email
+  *ship_phone
+  *ship_address
+  *ship_city
+
+###product-deteils-table
+*order_id
+*product_id
+*product_name
+*color
+*size
+*quantity
+*single_price
+*total_price
